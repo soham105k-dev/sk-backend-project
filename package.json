@@ -2,9 +2,10 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "a backend at cahi aur code channel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "java",
@@ -13,5 +14,9 @@
     "chai"
   ],
   "author": "sk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodemon": "^3.1.10"
+  }
 }
