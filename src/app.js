@@ -14,4 +14,13 @@ app.use(express.static("public"))//use to store some pdf files or folders which 
 app.use(cookieParser())//use to handel cookies and and change its settings
 
 
+
+
+//routes
+
+import userRouter from "./routes/user.routes.js"
+
+
+app.use("/api/v1/users",userRouter)
+
 export default app
